@@ -6,7 +6,7 @@
     <meta name="description" content="Blockcelerate is a VC Fund for Blockchain Companies" />
     <title>Blockcelerate</title>
     <link rel="stylesheet" href="css/site.min.css" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.1.0/particles.min.js"> </script>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
     	window.onload = function() {
 2   Particles.init({
@@ -14,6 +14,15 @@
 4   });
 5 };
 </script>
+<style type="text/css">
+    .background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+   z-index: 0;
+ }
+</style>
 </head>
 <body>
     
@@ -42,9 +51,21 @@
 
 <section id="contact" class="scrollspy">
     <div class="container">
-        <h6>Leave a message</h6>
         <div class="row">
-            <form class="col s12" method="post" action="https://turinginc.io/Home/SendEmail">
+
+            <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
+                          <form class="form-inline" role="form" action="https://bytebug.us12.list-manage.com/subscribe/post?u=4a7de847f0d007add61d1d8d0&amp;id=8afdb838fc" method="post" _lpchecked="1">
+                          <div class="form-group">
+                            <h6><label class="hidden" for="mce-EMAIL">Email address</label><h6>
+                            <input type="email" value="" name="EMAIL" class="form-control " placeholder="Your email here...">
+                          </div>
+                          <button type="submit" value="Subscribe" style="background-image: linear-gradient(90deg,#3454d1,#1098f7)" class="btn btn-primary btn-fill">Notify Me</button>
+                        </form>
+
+                    </div>
+                </div>
+            <!-- <form class="col s12" method="post" action="https://turinginc.io/Home/SendEmail">
                 <div class="row">
                     <div class="input-field col s12">
                         <input id="email" name="email" type="email" />
@@ -63,11 +84,11 @@
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
-            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BYg_QHsr5JLvSNumgQFbpI4gjmfRW3fU-vVRiu0tsehOyABUy5rHnh7t4PbIvOkL7H2G7yxUdb80lvZLcrlKEoHvrkmoGzTsEaZGQbAProwBjP-LRKZiFhm4Fv5G8tNDKxPBDmdhuhe6RKpC9xN_d8" /></form>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BYg_QHsr5JLvSNumgQFbpI4gjmfRW3fU-vVRiu0tsehOyABUy5rHnh7t4PbIvOkL7H2G7yxUdb80lvZLcrlKEoHvrkmoGzTsEaZGQbAProwBjP-LRKZiFhm4Fv5G8tNDKxPBDmdhuhe6RKpC9xN_d8" /></form> -->
         </div>
     </div>
 </section>
-<canvas class="background"></canvas>
+<canvas class="background"><div id="particles-js"></div></canvas>
 <footer class="page-footer transparent">
     <div class="footer-copyright transparent">
         <div class="container">
