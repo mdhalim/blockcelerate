@@ -1,0 +1,301 @@
+
+<!DOCTYPE HTML>
+<html>
+	
+
+<head>
+		<title>Landing Page</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----- webfonts ------>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic|Open+Sans:300italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!----- webfonts ------>
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="main-header">
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							   <img src="images/logo.png" alt="">
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								
+								<li><a href="#about" class="scroll">About</a></li>
+								<li><a href="#team" class="scroll">Team</a></li>
+								<li><a href="#portfolio" class="scroll">Roadmap</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
+                                
+                                <li style="margin-left:170px;"><a href="#" class="scroll">Join Us On Telegram</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		<!----- //End-header---->
+		<!----start-slider-script---->
+			
+			 
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			        	<div class="tittle-head">
+			        		<h1>Accelerating</h1>
+			          		<p>the tokenization of businesses</p>
+			          		
+                            
+			          	</div>
+			        </li>
+			        
+			        
+			      </ul>
+			    </div>
+                
+                
+                
+                <div  id="top" class="callbacks_container bg-rocket">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			        	<div class="tittle-head">
+			        		
+			          		<div class="learn-button col-md-6">
+			          			<a class="register-btn" href="#contact">Register For Interest</a>
+                               
+			          		</div>
+                            <div class="learn-button col-md-6">
+			          			
+                                <a class="whitepaper-btn" href="#">White Paper</a>
+			          		</div>
+			          	</div>
+			        </li>
+			        
+			        
+			      </ul>
+			    </div>
+                 
+			    <div class="clearfix"> </div>
+			    </div>
+			<!----- //End-slider---->
+			<!---728x90--->
+			<div id="about" class="about">
+				<div class="container">
+                 <div class="col-md-6 align-right"><img src="images/about-us.png" alt="about" style="width:400px;"></div>
+                
+                <div class="col-md-6">
+                <div class="about-head">
+						<h2 class="heading-color">About</h2>
+						<span>Democratized Accelerator for Blockchain Start-Ups and Existing Businesses</span>
+						<p>Blockcelerate is designed to provides mentorship and expertise to selected blockchain projects in their development, leading them towards their own successful Initial Coin Offering (ICO).<br>
+<br>
+
+
+Blockcelerate seeks to become a world leading platform that will drive the next wave of blockchain innovation.
+</p>
+                        
+			          			<a class="readmore-btn" href="#">Read More</a>
+			          		
+					</div>
+                    
+                    
+                    </div>
+					
+				</div>
+				
+			</div>
+			
+             
+            <!----- //End-about---->
+            
+            
+            <div id="team" class="team  bg-team">
+	 	 	<div class="container">
+	 	 		<div class="team-head">
+	 	 			<h3>The team </h3>
+ 					<p>Meet us!</p>
+	 	 		</div>
+       			<div class="row text-center teams">
+       				<div class="col-md-3 team_grid team-height team-background">
+       					<div class="view2 second-effect2">
+							 <img src="images/harrison.png" />
+								<div class="mask">
+									<a href="http://www.facebook.com" class="info">Read More</a>
+								</div>
+							</div>
+       					<h3>Harrison Choong</h3>
+       					<p>Former Partner & Director of Capital Market for Gladiolus Capital. Guided underwriting of multiple public offerings. Investor in blockchain & related technologies. Experienced Leader.</p>
+       				</div>
+       				<div class="col-md-3 team_grid team-height team-background">
+       				<div class="view2 second-effect2">
+							 <img src="images/david.png" />
+								<div class="mask">
+									<a href="#" class="info">Read More</a>
+								</div>
+							</div>
+       					<h3>David Lin</h3>
+       					<p>Successful Private Equity and Venture Capital Investor. Former Tune Labs Accelerator Project Head. Investor in blockchain & related technologies. Strong analytical and strategic management skills</p>
+       				</div>
+       				<div class="col-md-3 team_grid team-height team-background">
+       					<div class="view2 second-effect2">
+							 <img src="images/erwin.png" />
+								<div class="mask">
+									<a href="#" class="info">Read More</a>
+								</div>
+							</div>
+       					<h3>Erwin Soon</h3>
+       					<p>Serial entrepreneur. Graduate of the MaGIC Accelerator Program, the largest ASEAN Accelerator. Experienced in Marketing and Social Media Management..</p>
+       				</div>
+                    
+                    <div class="col-md-3 team_grid team-height team-background">
+       					<div class="view2 second-effect2">
+							 <img src="images/lady.png" />
+								<div class="mask">
+									<a href="#" class="info">Read More</a>
+								</div>
+							</div>
+       					<h3>Sandra Yap</h3>
+       					<p>Passion for filming, acting and all media related work. Graduate of Media and Communications from Goldsmiths College, University of London.</p>
+       				</div>
+                    
+                    
+       			</div>
+       		</div>
+	 	 </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+			
+
+
+	 	 
+	 	 <!---//End-team----->
+	 	  <div div id="portfolio" class="contact">
+	 	  	<div class="container">
+	 		<div class="contact-head">
+		 		<h3>Roadmap</h3>
+				
+			 </div>
+			</div>
+	 	  </div>
+	 	   <div id="contact" class="feedback">
+	 	   		<div class="container">
+	 	   			<div class="feed-head">
+	 	 			<h3 class="heading-color">Get in touch!</h3>
+ 					
+	 	 		</div>
+	 	 		<div class="feed-contact feed-contact-bg">
+				 	 			<div class="col-md-6 section-padding contact-form">
+											<form>
+												<input type="text" class="textbox" value="Name" onFocus="this.value = '';" onBlur="if (this.value = 'Name') {this.value = 'Name';}">
+												<input type="text" class="textbox" value="E-mail" onFocus="this.value = '';" onBlur="if (this.value ='E-mail') {this.value = 'E-mail';}">
+												<textarea value="Message" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+												<input type="submit" value="Send" >
+
+											</form>
+								</div>
+								<div class="col-md-6 contact-bgcolor address">
+										<h4>Contact Info</h4>
+										<p>3086 Farm Meadow Drive, Kingman, Delhi</p>
+										
+										<p>(91) 989 909 8990 </p>
+										<p><a href="mailto:info@blockcelerate.com">info@blockcelerate.com</a></p>
+									<div class="footer-icons">
+										<ul class="soc_icons unstyled-list list-inline">
+											<li><a href="#"><i class="icon_1"></i></a></li>
+											<li><a href="#"><i class="icon_2"></i></a></li>
+											<li><a href="#"><i class="icon_3"></i></a></li>
+											<li><a href="#"><i class="icon_4"></i></a></li>
+											<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+						<div class="container">
+							<div class="logo2">
+								   <img src="images/logo2.png" alt="">
+							</div>
+							<div class="copy-right">
+								<p> <a href="#">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Security</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Terms of use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Hello</a></p>
+							</div>								
+							<div class="clearfix"> </div>
+						</div>	
+				</div>	
+
+				<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+
+</html>
