@@ -740,6 +740,7 @@ i.icon3:hover{
 	background: url(../images/road-map.png);
 	background-size: cover;
 	min-height:500px;
+	background-position:center;
 
 }
 #contact{
@@ -1418,7 +1419,8 @@ ul.soc_icons{
 
 .bg-rocket {
 	background-image:url(../images/rocket.jpg);
-	height:350px;
+	height:355px;
+	background-position:center;
 }
 
 .bg-team {
