@@ -708,6 +708,11 @@ i.icon3:hover{
 	background: #F8F8F8;
 	padding-top: 3em;
 	padding-bottom:6em;
+}
+#services-content {
+	background: #F8F8F8;
+	padding-top: 3em;
+	padding-bottom:6em;
 }	
 .team-head {
 	text-align: center;
@@ -1199,6 +1204,11 @@ ul.soc_icons{
 	padding-top: 1em;
 	padding-bottom: 3em;
 	}
+	
+	#services-content{
+	padding-top: 1em;
+	padding-bottom: 3em;
+	}
 	.potrfolio-content {
 	padding-bottom: 4em;
 	}
@@ -1210,8 +1220,8 @@ ul.soc_icons{
 	width: 78%;
 	}
 	.contact {
-	background: url(../images/bg-3.jpg);
-	min-height: 351px;
+	background: url(../images/roadmap-small.png);
+	min-height: 240px;
 	}
 	.contact-form input[type="text"] {
 	width: 98.85%;
@@ -1336,6 +1346,10 @@ ul.soc_icons{
 	padding-top: 1em;
 	padding-bottom: 1em;
 	}
+	#services-content {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
 	.contact {
 	background: url(../images/bg-3.jpg);
 	min-height: 231px;
@@ -1407,14 +1421,33 @@ ul.soc_icons{
 }
 
 .col-md-3 {
-	    width:23% !important;
+
 		padding: 1% !important;
     margin: 0px 1% !important;
 	border-radius:6px !important;
 }
+.col-md-4 {
+
+		padding: 1% !important;
+    margin: 1% 1% !important;
+	border-radius:6px !important;
+}
+
 
 .team-height {
 	min-height:500px;
+}
+
+.about-height {
+	min-height:300px;
+}
+
+.about-height-content {
+	min-height:320px;
+}
+
+.about-height-content-1 {
+	min-height:380px;
 }
 
 .bg-rocket {
@@ -1511,4 +1544,24 @@ ul.soc_icons{
 	text-decoration: none !important;
 	color:#fff !important;
 /*	border:0px;*/
+}
+
+.text-sect-marging {
+	margin:8% 0px 2% 0px !important;
+	}
+	
+
+.img-width {
+		max-width:400px;
+	}
+
+@media (max-width: 768px) {
+	
+	.img-width {
+		max-width:100%;
+	}
+	.contact-head h3 {
+    font-size: 2.7em;
+	margin-top:-60px;
+}
 }
