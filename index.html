@@ -1,434 +1,343 @@
-
 <!DOCTYPE HTML>
 <html>
-	
 
 <head>
-		<title>Landing Page</title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		 <!-- Custom Theme files -->
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-   		 <!-- Custom Theme files -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		 <!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-		 <!---- start-smoth-scrolling---->
-		<!----- webfonts ------>
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic|Open+Sans:300italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
-		<!----- webfonts ------>
-		<!----start-top-nav-script---->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
-		<!----//End-top-nav-script---->
-	</head>
-	<body>
-		<div class="main-header">
-		<!----- start-header---->
-			<div id="home" class="header">
-					<div class="top-header">
-						<div class="container">
-						<div class="logo">
-							   <img src="images/logo.png" alt="">
-						</div>
-						<!----start-top-nav---->
-						 <nav class="top-nav">
-							<ul class="top-nav">
-								
-								<li><a href="#about" class="scroll">About</a></li>
-								<li><a href="#team" class="scroll">Team</a></li>
-								<li><a href="#portfolio" class="scroll">Roadmap</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
-                                
-                                <li class="nav-menu-margin"><a href="#" class="scroll">Join Us On Telegram</a></li>
-							</ul>
-							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
-						</nav>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-		<!----- //End-header---->
-		<!----start-slider-script---->
-			
-			 
-			<!----//End-slider-script---->
-			<!-- Slideshow 4 -->
-			    <div  id="top" class="callbacks_container">
-			      <ul class="rslides" id="slider4">
-			        <li>
-			        	<div class="tittle-head">
-			        		<h1>Accelerating</h1>
-			          		<p>the tokenization of businesses</p>
-			          		
-                            
-			          	</div>
-			        </li>
-			        
-			        
-			      </ul>
-			    </div>
-                
-                
-                
-                <div  id="top" class="callbacks_container bg-rocket">
-			      <ul class="rslides" id="slider4">
-			        <li>
-			        	<div class="tittle-head">
-			        		
-			          		<div class="learn-button col-md-6">
-			          			<a class="register-btn" href="#contact">Register For Interest</a>
-                               
-			          		</div>
-                            <div class="learn-button col-md-6">
-			          			
-                                <a class="whitepaper-btn" href="#">White Paper</a>
-			          		</div>
-			          	</div>
-			        </li>
-			        
-			        
-			      </ul>
-			    </div>
-                 
-			    <div class="clearfix"> </div>
-			    </div>
-			<!----- //End-slider---->
-			<!---728x90--->
-			<div id="about" class="about">
-				<div class="container">
-                 <div class="col-md-6 align-right"><img src="images/about-us.png" alt="about" class="img-width"></div>
-                
-                <div class="col-md-6">
-                <div class="about-head">
-						<h2 class="heading-color">About</h2>
-						<span>Democratized Accelerator for Blockchain Start-Ups and Existing Businesses</span>
-						<p>Blockcelerate is designed to provides mentorship and expertise to selected blockchain projects in their development, leading them towards their own successful Initial Coin Offering (ICO).<br>
-<br>
+    <title>Landing Page</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript">
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 
+    function hideURLbar() { window.scrollTo(0, 1); }
+    </script>
+    </script>
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+    </script>
+    <!---- start-smoth-scrolling---->
+    <!----- webfonts ------>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic|Open+Sans:300italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <!----- webfonts ------>
+    <!----start-top-nav-script---->
+    <script>
+    $(function() {
+        var pull = $('#pull');
+        menu = $('nav ul');
+        menuHeight = menu.height();
+        $(pull).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+        $(window).resize(function() {
+            var w = $(window).width();
+            if (w > 320 && menu.is(':hidden')) {
+                menu.removeAttr('style');
+            }
+        });
+    });
+    </script>
+    <!----//End-top-nav-script---->
+</head>
 
-Blockcelerate seeks to become a world leading platform that will drive the next wave of blockchain innovation.
-</p>
-                        
-			          			<a class="readmore-btn" href="#">Read More</a>
-			          		
-					</div>
-                    
-                    
+<body>
+    <div class="main-header">
+        <!----- start-header---->
+        <div id="home" class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
                     </div>
-					
-				</div>
-				
-			</div>
-			
-             
-             
-             <div id="services-content" class="team  bg-team">
-	 	 	<div class="container">
-	 	 		<div class="team-head">
-	 	 			<p>While many projects with brilliant ideas emerge every day, many of them will never get the funds they need in order to execute the project. In order to run a successful Initial Coin Offering (ICO), start-ups face a number of challenges including:</p>
-	 	 		</div>
-       			<div class="row text-center teams">
-       				<div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
-       					<div class="second-effect2">
-							 <img src="images/a1.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Funding the ICO Process</h4>
-       					<p>It is difficult tofundraise for projects in early phase, even though it is a publicly beneficial project.</p>
-       				</div>
-       				<div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
-       				<div class="second-effect2">
-							 <img src="images/a2.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Difficult to recruit Talents</h4>
-       					<p>It is difficult to recruit good team members at initial stage. Giving stock options (vesting and cliff) may be one option, but it is local expensive and a slow process.</p>
-       				</div>
-       				<div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
-       					<div class="second-effect2">
-							 <img src="images/a3.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Lack of Marketing Expertise</h4>
-       					<p>It is crucial to get the marketing aspects right, as a sucessful ICO is most reliant on the community that contributes and supports the project.</p>
-       				</div>
-                    
-                    <div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
-       					<div class="second-effect2">
-							 <img src="images/a4.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Lack of Knowledge on ICO Process</h4>
-       					<p>Teams may have great ideas but lack the knowledge, and nessary advise on structuring and running a successful ICO.</p>
-       				</div>
-                    
-                    
-       			</div>
+                    <!----start-top-nav---->
+                    <nav class="top-nav">
+                        <ul class="top-nav">
+                            <li><a href="#about" class="scroll">About</a></li>
+                            <li><a href="#team" class="scroll">Team</a></li>
+                            <li><a href="#portfolio" class="scroll">Roadmap</a></li>
+                            <li><a href="#contact" class="scroll">Contact</a></li>
+                            <li class="nav-menu-margin"><a href="https://t.me/blockcelerate" class="scroll">Join Us On Telegram</a></li>
+                        </ul>
+                        <a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+                    </nav>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!----- //End-header---->
+        <!----start-slider-script---->
+        <!----//End-slider-script---->
+        <!-- Slideshow 4 -->
+        <div id="top" class="callbacks_container">
+            <ul class="rslides" id="slider4">
+                <li>
+                    <div class="tittle-head">
+                        <h1>Accelerating</h1>
+                        <p>the tokenization of businesses</p>
+                    </div>
+                    <div class="learn-button col-md-12">
+                            <a class="register-btn" href="#contact">Register For Interest</a>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <div id="top" class="callbacks_container bg-rocket">
+            <!-- <ul class="rslides" id="slider4">
+                <li>
+                    <div class="tittle-head">
+                        <div class="learn-button col-md-6">
+                            <a class="register-btn" href="#contact">Register For Interest</a>
+                        </div>
+                        <div class="learn-button col-md-6">
+                            <a class="whitepaper-btn" href="#">White Paper</a>
+                        </div>
+                    </div>
+                </li>
+            </ul> -->
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!----- //End-slider---->
+    <!---728x90--->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="col-md-6 align-right"><img src="images/about-us.png" alt="about" class="img-width"></div>
+            <div class="col-md-6">
+                <div class="about-head">
+                    <h2 class="heading-color">About</h2>
+                    <span>Democratized Accelerator for Blockchain Start-Ups and Existing Businesses</span>
+                    <p>Blockcelerate is designed to provides mentorship and expertise to selected blockchain projects in their development, leading them towards their own successful Initial Coin Offering (ICO).
+                        <br>
+                        <br> Blockcelerate seeks to become a world leading platform that will drive the next wave of blockchain innovation.
+                    </p>
+                    <a class="readmore-btn" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services-content" class="team  bg-team">
+        <div class="container">
+            <div class="team-head">
+                <p>While many projects with brilliant ideas emerge every day, many of them will never get the funds they need in order to execute the project. In order to run a successful Initial Coin Offering (ICO), start-ups face a number of challenges including:</p>
+            </div>
+            <div class="row text-center teams">
+                <div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
+                    <div class="second-effect2">
+                        <img src="images/a1.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Funding the ICO Process</h4>
+                    <p>It is difficult tofundraise for projects in early phase, even though it is a publicly beneficial project.</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
+                    <div class="second-effect2">
+                        <img src="images/a2.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Difficult to recruit Talents</h4>
+                    <p>It is difficult to recruit good team members at initial stage. Giving stock options (vesting and cliff) may be one option, but it is local expensive and a slow process.</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
+                    <div class="second-effect2">
+                        <img src="images/a3.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Lack of Marketing Expertise</h4>
+                    <p>It is crucial to get the marketing aspects right, as a sucessful ICO is most reliant on the community that contributes and supports the project.</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 team_grid about-height team-background">
+                    <div class="second-effect2">
+                        <img src="images/a4.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Lack of Knowledge on ICO Process</h4>
+                    <p>Teams may have great ideas but lack the knowledge, and nessary advise on structuring and running a successful ICO.</p>
+                </div>
+            </div>
+            <div class="team-head">
+                <p class="text-sect-marging">Blockelerate seeks to provide Start-ups with the best chance of success by providing access to:</p>
+            </div>
+            <div class="row text-center teams">
+            	<div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content-1 team-background">
+                    <div class="second-effect2">
+                        <img src="images/a8.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Blockchain Developers</h4>
+                    <p>Some of the best blockchain developers may be found across the globe and geographical factors may restrict access to these developers. Through the BCL Platform, We are creating a global economy for projects to access the best developers and to hire them using the BCL Tokens.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content-1 team-background">
+                    <div class="second-effect2">
+                        <img src="images/a9.png" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Advisors</h4>
+                    <p>Having the right advisiors can go a long way in helping a project gain visiblity and credibility. The right advisiors will also be able to provide teams with an experienced supporting cast to learn from.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content-1 team-background">
+                    <div class="second-effect2">
+                        <img src="images/a10.png" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Blockchain Legal Specialists</h4>
+                    <p>The ICO Landscape and regulations and constantly changing and having access to legal Experts in this field can be of tremendous help to a new project. They can also be paid in issued tokens.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content team-background">
+                    <div class="second-effect2">
+                        <img src="images/a5.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Smart Contract Auditors</h4>
+                    <p>Smart contract writers and auditors are in high demand these days. Through the BCL Platform, Our users will have access to the best smart contract developers and auditors.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content team-background">
+                    <div class="second-effect2">
+                        <img src="images/a6.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Community Managers</h4>
+                    <p>Community through channels such as Telegram, Slack, Reddit and Medium. The community plays a vital role in a successful ICO.</p>
+                </div>
+                <div class="col-md-4 team_grid about-height-content team-background">
+                    <div class="second-effect2">
+                        <img src="images/a7.png" class="max-widgth" />
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <h4>Marketing & PR</h4>
+                    <p>Well known blockchain marketers know exacitly what to do with improving the involved with building visiblity leading up to the ICO</p>
+                </div>
                 
-                
-                <div class="team-head">
-	 	 			<p class="text-sect-marging">Blockelerate seeks to provide Start-ups with the best chance of success by providing access to:</p>
-	 	 		</div>
-                
-                
-                <div class="row text-center teams">
-       				<div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content team-background">
-       					<div class="second-effect2">
-							 <img src="images/a5.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Smart Contract Auditors</h4>
-       					<p>Smart contract writers and auditors are in high demand these days. Through the BCL Platform, Our users will have access to the best smart contract developers and auditors.</p>
-       				</div>
-       				<div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content team-background">
-       				<div class="second-effect2">
-							 <img src="images/a6.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Cmmunity Managers</h4>
-       					<p>Community through channels such as Telegram, Slack, Reddit and Medium. The community plays a vital role in a successful ICO.</p>
-       				</div>
-       				<div class="col-md-4 team_grid about-height-content team-background">
-       					<div class="second-effect2">
-							 <img src="images/a7.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Marketing & PR</h4>
-       					<p>Well known blockchain marketers know exacitly what to do with improving the involved with building visiblity leading up to the ICO</p>
-       				</div>
-                    
-                    <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content-1 team-background">
-       					<div class="second-effect2">
-							 <img src="images/a8.png" class="max-widgth" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Blockchain Developers</h4>
-       					<p>Some of the best blockchain developers may be found across the globe and geographical factors may restrict access to these developers. Through the BCL Platform, We are creating a global economy for projects to access the best developers and to hire them using the BCL Tokens.</p>
-       				</div>
-                    
-                    
-                    <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content-1 team-background">
-       					<div class="second-effect2">
-							 <img src="images/a9.png" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Advisors</h4>
-       					<p>Having the right advisiors can go a long way in helping a project gain visiblity and credibility. The right advisiors will also be able to provide teams with an experienced supporting cast to learn from.</p>
-       				</div>
-                    
-                    
-                    
-                    <div class="col-sm-12 col-md-4 col-lg-4 team_grid about-height-content-1 team-background">
-       					<div class="second-effect2">
-							 <img src="images/a10.png" />
-								<div class="mask">
-									
-								</div>
-							</div>
-       					<h4>Blockchain Legal Specialists</h4>
-       					<p>The ICO Landscape and regulations and constantly changing and having access to legal Experts in this field can be of tremendous help to a new project. They can also be paid in issued tokens.</p>
-       				</div>
-                    
-                    
-       			</div>
-                
-                
-                
-                
-       		</div>
-	 	 </div>
-             
-             
-             
-        
-        
-        
-        
-             
-             
-             
-             
-             
-             
-            <!----- //End-about---->
-            
-            
-            <div id="team" class="team  bg-team">
-	 	 	<div class="container">
-	 	 		<div class="team-head">
-	 	 			<h3>The team </h3>
- 					<p>Meet us!</p>
-	 	 		</div>
-       			<div class="row text-center teams">
-       				<div class="col-md-3 team_grid team-height team-background">
-       					<div class="view2 second-effect2">
-							 <img src="images/harrison.png" />
-								<div class="mask">
-									<a href="http://www.facebook.com" class="info">Read More</a>
-								</div>
-							</div>
-       					<h3>Harrison Choong</h3>
-       					<p>Former Partner & Director of Capital Market for Gladiolus Capital. Guided underwriting of multiple public offerings. Investor in blockchain & related technologies. Experienced Leader.</p>
-       				</div>
-       				<div class="col-md-3 team_grid team-height team-background">
-       				<div class="view2 second-effect2">
-							 <img src="images/david.png" />
-								<div class="mask">
-									<a href="#" class="info">Read More</a>
-								</div>
-							</div>
-       					<h3>David Lin</h3>
-       					<p>Successful Private Equity and Venture Capital Investor. Former Tune Labs Accelerator Project Head. Investor in blockchain & related technologies. Strong analytical and strategic management skills</p>
-       				</div>
-       				<div class="col-md-3 team_grid team-height team-background">
-       					<div class="view2 second-effect2">
-							 <img src="images/erwin.png" />
-								<div class="mask">
-									<a href="#" class="info">Read More</a>
-								</div>
-							</div>
-       					<h3>Erwin Soon</h3>
-       					<p>Serial entrepreneur. Graduate of the MaGIC Accelerator Program, the largest ASEAN Accelerator. Experienced in Marketing and Social Media Management..</p>
-       				</div>
-                    
-                    <div class="col-md-3 team_grid team-height team-background">
-       					<div class="view2 second-effect2">
-							 <img src="images/lady.png" />
-								<div class="mask">
-									<a href="#" class="info">Read More</a>
-								</div>
-							</div>
-       					<h3>Sandra Yap</h3>
-       					<p>Passion for filming, acting and all media related work. Graduate of Media and Communications from Goldsmiths College, University of London.</p>
-       				</div>
-                    
-                    
-       			</div>
-       		</div>
-	 	 </div>
-            
-            
-            
-            
-            
-            
-                      
-            
-            
-            
-            
-            
-            
-			
-
-
-	 	 
-	 	 <!---//End-team----->
-	 	  <div div id="portfolio" class="contact">
-	 	  	<div class="container">
-	 		<div class="contact-head">
-		 		<h3>Roadmap</h3>
-				
-			 </div>
-			</div>
-	 	  </div>
-	 	   <div id="contact" class="feedback">
-	 	   		<div class="container">
-	 	   			<div class="feed-head">
-	 	 			<h3 class="heading-color">Get in touch!</h3>
- 					
-	 	 		</div>
-	 	 		<div class="feed-contact feed-contact-bg">
-				 	 			<div class="col-md-6 section-padding contact-form">
-											<form name="contactForm" id="contactForm" action="rab.php" method="post">
-												<input name="name" type="text" class="textbox" value="Name" >
-												<input name="email" type="text" class="textbox" value="E-mail" >
-												<textarea name="comments" value="">Message</textarea>
-												<input type="submit" value="Send" name="submit">
-
-											</form>
-								</div>
-								<div class="col-md-6 contact-bgcolor address">
-										<h4>Contact Info</h4>
-										<p>3086 Farm Meadow Drive, Kingman, Delhi</p>
-										
-										<p>(91) 989 909 8990 </p>
-										<p><a href="mailto:info@blockcelerate.com">info@blockcelerate.com</a></p>
-									<div class="footer-icons">
-										<ul class="soc_icons unstyled-list list-inline">
-											<li><a href="#"><i class="icon_1"></i></a></li>
-											<li><a href="#"><i class="icon_2"></i></a></li>
-											<li><a href="#"><i class="icon_3"></i></a></li>
-											<li><a href="#"><i class="icon_4"></i></a></li>
-											<div class="clearfix"> </div>
-										</ul>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="footer">
-						<div class="container">
-							<div class="logo2">
-								   <img src="images/logo2.png" alt="">
-							</div>
-							<div class="copy-right">
-								<p> <a href="#">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Security</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Terms of use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Hello</a></p>
-							</div>								
-							<div class="clearfix"> </div>
-						</div>	
-				</div>	
-
-				<script type="text/javascript">
-									$(document).ready(function() {
-										/*
+            </div>
+        </div>
+    </div>
+    <!----- //End-about---->
+    <div id="team" class="team  bg-team">
+        <div class="container">
+            <div class="team-head">
+                <h3>The team </h3>
+                <p>Meet us!</p>
+            </div>
+            <div class="row text-center teams">
+                <div class="col-md-3 team_grid team-height team-background">
+                    <div class="view2 second-effect2">
+                        <img src="images/harrison.png" />
+                        <div class="mask">
+                            <a href="http://www.facebook.com" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <h3>Harrison Choong</h3>
+                    <p>Former Partner & Director of Capital Market for Gladiolus Capital. Guided underwriting of multiple public offerings. Investor in blockchain & related technologies. Experienced Leader.</p>
+                </div>
+                <div class="col-md-3 team_grid team-height team-background">
+                    <div class="view2 second-effect2">
+                        <img src="images/david.png" />
+                        <div class="mask">
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <h3>David Lin</h3>
+                    <p>Formerly worked in Private Equity and Fund Management. Former Tune Labs Accelerator founding team. Investor in blockchain & related technologies. Strong analytical and strategic management skills</p>
+                </div>
+                <div class="col-md-3 team_grid team-height team-background">
+                    <div class="view2 second-effect2">
+                        <img src="images/erwin.png" />
+                        <div class="mask">
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <h3>Erwin Soon</h3>
+                    <p>Serial entrepreneur. Graduate of the MaGIC Accelerator Program, the largest ASEAN Accelerator. Experienced in Marketing and Social Media Management..</p>
+                </div>
+                <div class="col-md-3 team_grid team-height team-background">
+                    <div class="view2 second-effect2">
+                        <img src="images/lady.png" />
+                        <div class="mask">
+                            <a href="#" class="info">Read More</a>
+                        </div>
+                    </div>
+                    <h3>Sandra Yap</h3>
+                    <p>Passion for filming, acting and all media related work. Graduate of Media and Communications from Goldsmiths College, University of London.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---//End-team----->
+    <div div id="portfolio" class="contact">
+        <div class="container">
+            <div class="contact-head">
+                <h3>Roadmap</h3>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="feedback">
+        <div class="container">
+            <div class="feed-head">
+                <h3 class="heading-color">Get in touch!</h3>
+            </div>
+            <div class="feed-contact feed-contact-bg">
+                <div class="col-md-6 section-padding contact-form">
+                    <form name="contactForm" id="contactForm" action="rab.php" method="post">
+                        <input name="name" type="text" class="textbox" value="Name">
+                        <input name="email" type="text" class="textbox" value="E-mail">
+                        <textarea name="comments" value="">Message</textarea>
+                        <input type="submit" value="Send" name="submit">
+                    </form>
+                </div>
+                <div class="col-md-6 contact-bgcolor address">
+                    <h4>Contact Info</h4>
+                    <!-- <p>3086 Farm Meadow Drive, Kingman, Delhi</p>
+                    <p>(91) 989 909 8990 </p> -->
+                    <p><a href="mailto:ask@blockcelerate.com">info@blockcelerate.com</a></p>
+                    <div class="footer-icons">
+                        <ul class="soc_icons unstyled-list list-inline">
+                            <li><a href="https://www.facebook.com/Blockcelerate/"><i class="icon_1"></i></a></li>
+                            <li><a href="https://twitter.com/blockcelerate"><i class="icon_2"></i></a></li>
+                            <!-- <li><a href="#"><i class="icon_3"></i></a></li>
+                            <li><a href="#"><i class="icon_4"></i></a></li> -->
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="logo2">
+                <img src="images/logo2.png" alt="">
+            </div>
+            <div class="copy-right">
+                <p> <a href="#">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Security</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Terms of use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Hello</a></p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        /*
 										var defaults = {
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
@@ -436,12 +345,12 @@ Blockcelerate seeks to become a world leading platform that will drive the next 
 											easingType: 'linear' 
 								 		};
 										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </body>
 
 </html>
