@@ -160,7 +160,7 @@ nav a#pull {
 /*	background:url(../images/bg.jpg);*/
 	background-color:#3a58c7;
 	background-size:cover;
-	min-height: 700px;
+/*	min-height: 700px;*/
 }
 #slider2,
 #slider3 {
@@ -303,7 +303,7 @@ nav a#pull {
   overflow: hidden;
   width: 100%;
   padding: 0;
-  margin: 0;
+  margin: 50px 0px 0px 0px;
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -517,7 +517,7 @@ i.icon3:hover{
 .gallery-head h3,.port-head h3,.team-head h3,.feed-head h3 {
 	color: #5572f6;
 	font-weight: 900;
-	font-size: 4em;
+	font-size: 2em;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
 
@@ -599,12 +599,12 @@ i.icon3:hover{
    margin: 10px 10px;
 }
 .view2 {
-   float: left;
+/*   float: left;*/
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-   margin: 8px 4px;
+    margin: 8px auto !important;
 }
 .view .mask, .view .contentn,.view2 .mask, .view2 .content  {
    width: 100%;
@@ -617,7 +617,8 @@ i.icon3:hover{
 .view img,.view2 img  {
    display: block;
    position: relative;
-       max-width: 100%;
+       max-width: 60%;
+	margin:0px auto;
 }
 .view a.info {
    background:url(../images/caption.png) center no-repeat;
@@ -744,7 +745,7 @@ i.icon3:hover{
 .contact{
 	background: url(../images/road-map.png);
 	background-size: cover;
-	min-height:500px;
+	min-height:860px;
 	background-position:center;
 
 }
@@ -763,7 +764,7 @@ i.icon3:hover{
 }
 .contact-head h3{
 	color: #5572f6;
-	font-size: 3em;
+	font-size: 2em;
 	padding: 0;
 	font-weight: 700;
 	line-height: 1.4em;
@@ -1062,7 +1063,7 @@ ul.soc_icons{
 	margin: 1% 0 0% 29%;
 	}
 	.view2 .mask, .view2 .content{
-	width: 53%;
+	width: 100%;
 	}
 	#contact {
 	background: url(../images/bg-4.jpg);
@@ -1098,7 +1099,7 @@ ul.soc_icons{
 	min-height: 354px;
 	}
 	.view2 .mask, .view2 .content {
-	width: 66%;
+	width: 100%;
 	}
 	.tittle-head h1 {
 	font-size: 3em;
@@ -1217,7 +1218,7 @@ ul.soc_icons{
 	margin: 1% 0 0% 18%;
 	}
 	.view2 .mask, .view2 .content {
-	width: 78%;
+	width: 100%;
 	}
 	.contact {
 	background: url(../images/roadmap-small.png);
@@ -1435,7 +1436,7 @@ ul.soc_icons{
 
 
 .team-height {
-	min-height:500px;
+	min-height:420px;
 }
 
 .about-height {
@@ -1490,8 +1491,8 @@ ul.soc_icons{
 	padding: 0.4em 2em;
 	text-decoration: none;
 	border:none;
-/*	margin-top: .2em;
-*/	/*margin-left:-20%;*/
+	margin-top: .2em;
+	margin-left:-20%;
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
 	color: #FFF;
@@ -1607,5 +1608,62 @@ ul.soc_icons{
 	background-repeat:no-repeat;
 	background-position:center;
 	height:120px;
+}
+}
+
+.text-align-left {
+	text-align:left !important;
+	width:100% !important;
+}
+
+.div-height-new {
+	height:250px !important;
+}
+.div-margin-new {
+	margin:0% 0% 0% 4%;
+}
+
+.top-navbar {
+	position:fixed !important;
+	top:0px !important;
+	background-color:#3b59c9;
+	width:100%;
+	z-index:9999 !important;
+}
+
+.svg-size {
+	    max-width: 66% !important;
+    max-height: 66% !important;
+    margin: 0px auto !important;
+}
+
+@media(max-width:360px){
+.svg-size {
+	max-width: 30% !important;
+    max-height: 66% !important;
+    margin: 0px auto !important;
+}
+}
+
+@media(max-width:480px){
+.svg-size {
+	max-width: 30% !important;
+    max-height: 66% !important;
+    margin: 0px auto !important;
+}
+}
+@media(max-width:600px){
+.svg-size {
+	max-width: 30% !important;
+    max-height: 66% !important;
+    margin: 0px auto !important;
+}
+}
+
+@media(min-width:1024px){
+.svg-size {
+	max-width: 50% !important;
+    max-height: 66% !important;
+    margin: 0px auto !important;
 }
 }
