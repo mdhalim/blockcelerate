@@ -328,6 +328,17 @@ nav a#pull {
 .callbacks_tabs li{
 	display:inline-block;
 }
+/*comming soon line css*/
+.white-paper-button button {
+	line-height: 16px;
+}
+.white-paper-button a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.white-paper-button span {
+	font-size: 16px;
+}
 @media screen and (max-width: 600px) {
   h1 {
     font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
